@@ -1,0 +1,51 @@
+/* Main Content */
+
+main {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.main-img {
+    width: 50%;
+}
+
+.about-info {
+    text-align: left;
+    margin: 4% 8% 6% 8%;
+}
+
+.profile {
+    width: 350px;
+}
+
+.about-info > hr {
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info {
+    margin-top: -32%;
+    margin-left: 32%;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.skills {
+    font-size: 35px;
+    margin: 5px 0 0 0;
+    display: inline-block;
+}
+
+ul {
+    margin: 0;
+}

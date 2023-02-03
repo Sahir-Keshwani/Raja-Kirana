@@ -1,0 +1,50 @@
+/* Main Content */
+main {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.main-img {
+    width: 52%;
+}
+
+.offers {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+
+}
+
+.img {
+    width: 80%;
+}
+
+figcaption {
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    border-color: black;
+}
+
+.offers > div > a > p {
+    font-size: 20px;
+    margin-top: 0;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 50% 50%;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.buy-img {
+    margin-top: 20px;
+}
+
+.buy {
+    color: red;
+    font-size: 30px;
+    margin-top: -150px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}

@@ -1,0 +1,95 @@
+/* Main Content */
+
+main {
+    padding: 0 5%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.main-img {
+    width: 60%;
+}
+
+/* form */
+::placeholder {
+    font-family: 'Solitreo', cursive;
+}
+
+.form {
+    width: 60%;
+    margin: 5% auto 2%;
+    font-size: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 30px;
+}
+
+.block {
+    display: block;
+}
+
+input, label, textarea {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 25%;
+}
+
+label[for="telephone"] {
+    padding-left: 5%;
+}
+
+label[for="email"] {
+    padding-left: 5%;
+}
+
+
+input[type="email"] {
+    padding-left: 5%;
+}
+
+label[for="comments"] {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 5px 0;
+}
+
+textarea {
+    display: block;
+    margin: 0 auto;
+    padding-right: 70%;
+    text-align: left;
+}
+
+label[for="check"] {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+}
+
+button {
+    display: block;
+    padding: 20px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid brown;
+    border-radius: 50% 80% ;
+    background-color: burlywood;
+    color: brown;
+    font-weight: bolder;
+    font-size: 30px;
+}

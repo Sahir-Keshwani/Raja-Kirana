@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Solitreo', cursive;
+    background-color:#D0E8F2;
+}
+
+/* Navigation */
+nav {
+    margin: 0;
+    padding: 0 40px;
+    background-color: #79A3B1;
+    border-bottom: 2px solid darkslategray;
+    position: sticky;
+    top: 0;
+}
+
+.brand {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+
+.brand-name {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0;
+    margin-left: 32px;
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 41%;
+}
+
+.nav > a {
+    color: black;
+    text-decoration: none;
+    padding-left: 45px;
+}
+
+.nav > a:not(1) {
+    padding-left: 150px;
+    color: red;
+}
+
+/* Main */
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+hr {
+    border: 5px solid black;
+    border-radius: 40%;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 2% 5%;
+    color: #FCF8EC;
+    background-color: #456268;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.footer-img {
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.footer-brand-name {
+    font-size: 25px;
+    margin: 0 0 0 95px;
+}
+
+.address-info {
+    margin-top: 15px;
+}
+
+.address {
+    margin: 0;
+}
+
+.contact {
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+.contact > p{
+    margin-bottom: 0;
+}
+
+.contact-now {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.footer-links{
+    color: #FCF8EC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
