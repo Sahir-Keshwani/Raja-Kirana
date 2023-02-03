@@ -29,11 +29,10 @@ fieldset {
 
 legend {
     font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
 
-.block {
-    display: block;
-}
 
 input, label, textarea {
     margin-top: 15px;
